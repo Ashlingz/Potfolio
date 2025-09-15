@@ -381,3 +381,14 @@
     padding-right: 0;
     border-right: none;
 }
+.square-img {
+  width: 222px;       /* or 100% if you want it responsive */
+  height: 222px;      /* same as width to keep square */
+  object-fit: cover;  /* crop instead of stretching */
+}
+
+.square2-img {
+  width: 222px;       /* or 100% if you want it responsive */
+  height: 500px;      /* same as width to keep square */
+  object-fit: cover;  /* crop instead of stretching */
+}
